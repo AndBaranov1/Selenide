@@ -8,10 +8,10 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class SolutionsEnterprizeTest {
+public class SolutionsEnterpriseTest {
 
     @Test
-    void solutionsEnterprizeCheckHeader() {
+    void solutionsEnterpriseCheckHeader() {
         Configuration.browserSize = "1920x1080";
         // Открыть главную страницу
         open("https://github.com/");
